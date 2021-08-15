@@ -1,0 +1,191 @@
+/* 414px up to 767px row */
+@media only screen and (min-width: 414px) {
+  /* ------ DESIGN PHOTOGRAPHY SECTION ------ */
+  h3 {
+    font-size: 170%;
+  }
+
+  .text-box p {
+    font-size: 90%;
+  }
+
+  /* ------ HEADER ------ */
+  .triangle-left {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 60px solid hsl(0, 0%, 100%);
+  }
+}
+
+/* 768px up to 1022px row */
+@media only screen and (min-width: 768px) {
+  /* ------ BASIC SETUP ------ */
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inline-block;
+  }
+
+  .row {
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+  }
+
+  /* ------ BOXES ------ */
+  .box-padding {
+    padding: 9%;
+  }
+
+  /* ------ HEADINGS ------ */
+  h1 {
+    font-size: 230%;
+    padding-bottom: 5%;
+  }
+
+  h3 {
+    padding-bottom: 3%;
+    font-size: 110%;
+  }
+
+  h4 {
+    padding-top: 0;
+  }
+
+  h5 {
+    padding-bottom: 5%;
+  }
+
+  /* ------ HEADER ------ */
+  .header-text-box {
+    bottom: 30%;
+  }
+
+  .header-brand p {
+    padding-top: 0;
+  }
+
+  /* ------ TRANSFORM / STANDOUT SECTION ------ */
+  .image-transform,
+  .image-standout,
+  .box-transform-text,
+  .box-standout-text {
+    width: 50%;
+  }
+
+  .box-transform-text,
+  .box-standout-text {
+    text-align: left;
+    font-size: 90%;
+    padding: 5%;
+  }
+
+  .image-transform,
+  .box-standout-text {
+    float: right;
+  }
+
+  .box-transform-text,
+  .image-standout {
+    float: left;
+  }
+
+  /* ------ DESIGN PHOTOGRAPHY SECTION ------ */
+  .box-photography,
+  .box-design {
+    width: 50%;
+  }
+
+  .box-photography {
+    float: right;
+  }
+
+  .box-design {
+    float: left;
+  }
+
+  .text-box {
+    position: absolute;
+    line-height: 1.5;
+    top: 50%;
+  }
+
+  .text-box p {
+    width: 100%;
+  }
+
+  /* ------ TESTIMONIAL SECTION ------ */
+  .col {
+    width: 33.3%;
+    float: left;
+  }
+
+  /* ------ IMAGES GALLERY SECTION ------ */
+  .box-milkbottles,
+  .box-orange,
+  .box-cone,
+  .box-cubes {
+    width: 25%;
+    float: left;
+  }
+
+  .box-orange,
+  .box-cubes {
+    position: relative;
+  }
+
+  /* ------ FOOTER ------ */
+  footer {
+    height: 100%;
+    float: left;
+    width: 100%;
+    padding: 3%;
+  }
+
+  .footer-icons-row {
+    padding-top: 5%;
+  }
+
+  .footer-icon {
+    padding: 0 2%;
+    width: 6%;
+  }
+
+  .footer-text {
+    padding: 0 2%;
+  }
+}
+
+/* 1023px up to 1199px row */
+@media only screen and (min-width: 1023px) {
+  /* ------ HEADINGS ------ */
+  h2 {
+    font-size: 200%;
+  }
+
+  /* ------ TRANSFORM / STANDOUT SECTION ------ */
+  .box-transform-text,
+  .box-standout-text {
+    padding: 9%;
+  }
+}
+
+/* 1200px row upwards */
+@media only screen and (min-width: 1200px) {
+  /* ------ HEADINGS ------ */
+  h3 {
+    font-size: 190%;
+  }
+
+  /* ------ DESIGN PHOTOGRAPHY SECTION ------ */
+  .text-box p {
+    font-size: 120%;
+  }
+}
